@@ -1,0 +1,246 @@
+body{
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #DFE3E1;
+}
+
+h1.navbar-brand{
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 2px;
+  margin-top: 10px;
+  font-size: 5vw;
+}
+
+.navbar-brand{
+  font-family: "Montserrat", Arial, sans-serif;
+  color:white;
+  font-weight: bold;
+  font-size:50px;
+  text-align: left;
+  
+}
+.bg-dark {
+    width: 100%;
+}
+#score {
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  display: block;
+  float: right;
+  margin-top: 40px;
+  margin-right: 160px;
+  text-align: center;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: gray;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+#panier {
+    float: right;
+    background-color: #D60BCA;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 20px 20px 0 0;
+    border: none;
+    outline: none;
+}
+#monIconPanier {
+    color: white;
+}
+.fixed-position{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 3px 3px 3px #2e2828;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 30px auto;
+}
+.card-deck {
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  margin-bottom: 85px;
+}
+.card {
+  position: static;
+}
+  .card-header{
+    background-color: #1ADC9E;
+    height: 70px;
+  }
+.card-header p {
+  color: white;
+  font-size: 40px;
+}
+
+  p{
+    margin: 0 0 0 0;
+    text-align: center;
+    color: #1ADC9E;
+    font-size: 20px;
+  }
+  .card-body {
+    padding-bottom: 0;
+  }
+
+  #promo{
+    background-color: #D60BCA;
+    width: 260px;
+    height: 449px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+#promo h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+}
+  h2{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, sans-serif;
+  }
+
+.modal-title strong {
+    font-family: "Montserrat", Arial, sans-serif;
+    color:white;
+    text-align: center;
+  }
+
+button#btnClose {
+  color: white;
+  font-weight: bold;
+}
+
+  .modal-header.text-center.text-centerDescription{
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color: #250887;
+  }
+
+  h4{
+    text-align: center;
+    display: inline-block;
+  }
+
+  h5{
+    text-align: center;
+    display: inline-block;
+    float: right;
+  }
+
+#cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    border:1px solid black;
+    margin: auto;
+}
+#cercleRed {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #C10D28  ;
+    border:1px solid black;
+}
+
+#cercleGolden {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #CAB131;
+    border:1px solid black;
+}
+
+#cercleGray {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #6A6A6A  ;
+    border:1px solid black;
+}
+
+#btnAcheter{
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #D60BCA;
+    display: inline-block;
+    outline: none;
+}
+#btnSupprimer{
+  background-color: #CC1004;
+  border-color: #CC1004;
+  outline: none;
+}
+
+.modal-header.text-center.text-centerAjouter{
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #D60BCA;
+}
+
+.btn.btn-outline-success.waves-effect{
+  background-color: #D60BCA;
+  border-color: #D60BCA;
+  color: white;
+}
+
+.btn.btn-outline-success.waves-effect:hover{
+  color: black;
+}
+
+span{
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.modal-header.text-center.text-centerSupprimer{
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #CC1004;
+}
+
+.btn.btn-outline-danger.waves-effect{
+    color: white;
+    background-color: #CC1004;
+}
+
+.btn.btn-outline-danger.waves-effect :hover{
+    color: black;
+}
+
+.btn.btn-outline-warning.waves-effect{
+  color: white;
+  border-color: black;
+  background-color: #000000;
+}
+
+.btn.btn-outline-warning.waves-effect:hover{
+  color: #CC1004;
+  background-color: black;
+  border-color: black;
+}
+
+img {
+   width: 100px;
+}
+  ul {
+  background-color: gray;
+  width: 500px;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
